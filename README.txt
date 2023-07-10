@@ -16,7 +16,10 @@ Now the following commands should be used to run the Program
           1. lex BMM_Scanner.l
           2. yacc -d BMM_parser.y
           3. cc lex.yy.c y.tab.c -o bmm -ll
-          4. ./bmm
+          4. ./bmm ./filename
+		
+all combined:
+	lex BMM_Scanner.l && yacc -d BMM_Parser.y && cc lex.yy.c y.tab.c -o bmm && ./bmm ./filename
 
 Scanner.txt : in this file we are printing all the tokens from the input code.
 
