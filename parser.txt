@@ -1,0 +1,72 @@
+
+Line no: 10
+Keyword : REM
+
+Line no: 20
+Keyword : INPUT
+Variable: X 
+delimiter : ','
+Variable: Y 
+
+Line no: 30
+Keyword : LET
+Variable: A 
+Assignment : '='
+Variable: X 
+operator : '+'
+Variable: Y 
+
+Line no: 50
+Keyword : PRINT
+Expression: "SUM OF X AND Y IS "
+Delimiter : ';'
+Variable: A 
+
+Line no: 60
+Keyword : LET
+Variable: B 
+Assignment : '='
+Variable: X 
+operator : '-'
+Variable: Y 
+
+Line no: 70
+Keyword : PRINT
+Expression: "DIFFERENCE X AND Y IS"
+Delimiter : ';'
+Variable: B 
+
+Line no: 80
+Keyword : IF
+Variable: B 
+operator : '>'
+Value: 0
+
+Line no: 90
+
+Line no: 90
+Keyword : PRINT
+Variable: X 
+Delimiter : ';'
+Expression: "IS GREATER THAN"
+Delimiter : ';'
+Variable: Y 
+
+Line no: 110
+Keyword : IF
+Variable: B 
+operator : '<'
+Value: 0
+
+Line no: 120
+
+Line no: 120
+Keyword : PRINT
+Variable: X 
+Delimiter : ';'
+Expression: "IS LESS THAN"
+Delimiter : ';'
+Variable: Y 
+
+Line no: 130
+Keyword : EXIT
